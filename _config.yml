@@ -1,0 +1,58 @@
+# Site settings
+title: Your Screen Is Not Dead
+email: yourscreenisnotdead@gmail.com
+description: Three passionate Uptown, NYC friends who love and enjoy movies break down their favorite films from current releases to older classics. No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it. This is our contribution to film appreciation.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: pretty 
+
+
+# Podcast General Settings
+# ------------------------------------------------------------------------
+
+# The homepage of your podcast
+podcastSite: http://www.yourscreenisnotdead.com
+
+# The cover image for the podcast, will show in search results in iTunes
+podcastCoverImg: http://wwww.YourSite.com/imageSize1400x1400-min.jpg
+
+# The name of your podcast
+podcastTitle: Your Screen Is Not Dead
+
+# About You. For iTunes admin. This information is not displayed on the iTunes Store.
+podcastOwner: Jeffrey Herrera
+podcastEmail: herrera.jeffrey@gmail.com
+
+# See https://www.apple.com/itunes/podcasts/specs.html near the bottom for valid categories
+category: TV & Film
+
+# is it too dangerous for the impressionable kiddos?
+podcastIsExplicit: "no"
+
+
+podcastAuthor: Jeffrey Herrera, Carlos Renaso, Carlos Salcedo
+podcastDescription: Verbose description of the podcast.
+podcastSubtitle: Three passionate Uptown, NYC friends break down their favorite films from current releases to older classics.  No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it.
+
+
+
+#                          ###
+
+
+
+# Don't edit below this line unless you know what you are doing.
+# ------------------------------------------------------------------------
+
+
+# Create a Jekyll collection to handle the episodes
+collections:
+- episodes
+
+# Identify a place to output the generated files
+destination: _upload-this
+
+# Keep the readme out of the output folder
+exclude: ['readme.md']

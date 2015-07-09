@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="hero">
+  <div class="hero-wrapper">
+    <span class="hero-title">{% include svg/title.html %}</span>
+    <div class="hero-text">
+      <p class="hero-intro">Three passionate Uptown, NYC friends who love and enjoy movies break down their favorite films from current releases to older classics.  No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it. This is our contribution to film appreciation.</p>
+
+      {% for post in site.posts offset: 0 limit: 1 %}
+      <span class="hero-latest">
+        <p>Latest Episode</p>
+        <h1>{{ post.title }}</h1>
+        <span class="player">
+          <audio src="https://googledrive.com/host/0BzNYNCWgKyw2NHhFUHNadlpSeUE/Ralphy's Theme - Jeffrey Herrera.mp3" preload="auto" />
+        </span>
+      </span>
+      {% endfor %}
+
+    </div>
+    <span class="hero-overlay"></span>
+    <span class="hero-image"></span>
+  </div>
+</div>
+
+
+<div class="home">
+
+  <h1 class="page-heading">previous episodes</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts offset:1 %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

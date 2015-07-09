@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+  <channel>
+    <title>Your Screen Is Not Dead</title>
+    <link>http://www.yourscreenisnotdead.com</link>
+    <language>en-us</language>
+    <copyright>&#x2117; &amp; &#xA9; , Jeffrey Herrera </copyright>
+    <itunes:subtitle>Three passionate Uptown, NYC friends break down their favorite films from current releases to older classics.  No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it.</itunes:subtitle>
+    <itunes:author>Jeffrey Herrera, Carlos Renaso, Carlos Salcedo</itunes:author>
+    <itunes:summary>Verbose description of the podcast.</itunes:summary>
+    <description>Verbose description of the podcast.</description>
+
+    <itunes:owner>
+      <itunes:name>Jeffrey Herrera</itunes:name>
+      <itunes:email>herrera.jeffrey@gmail.com</itunes:email>
+    </itunes:owner>``
+
+    <itunes:image href="http://wwww.YourSite.com/imageSize1400x1400-min.jpg" />
+
+    <itunes:category text="TV & Film">
+      <itunes:category text=""/>
+    </itunes:category>
+
+    <itunes:explicit>no</itunes:explicit>
+    
+    <item>
+      <title>Whiplash</title>
+      <itunes:subtitle>Oh the intensity!</itunes:subtitle>
+      <itunes:author>Jeffrey Herrera, Carlos Renaso, Carlos Salcedo</itunes:author>
+      <itunes:summary>Three passionate Uptown, NYC friends break down their favorite films from current releases to older classics.  No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it.</itunes:summary>
+      <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg" />
+
+      <enclosure url="http://example.com/podcasts/everything/AllAboutEverythingEpisode3.m4a" length="8727310" type="audio/mpeg" />
+
+      <guid>1</guid>
+
+      <pubDate>Wed, 15 Jun 2014 19:00:00 GMT</pubDate>
+
+      <itunes:duration>424.0</itunes:duration>
+
+    </item>
+    
+  </channel>
+</rss>

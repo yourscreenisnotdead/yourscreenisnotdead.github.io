@@ -1,0 +1,23 @@
+.page-content {
+  min-height: 100%;
+  margin-bottom: -185px;
+  overflow: hidden;
+}
+.page-content:after {
+  content: "";
+  display: block;
+  height: 185px;
+}
+
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+    background-color: $brand-color;
+    height: 135px;
+}
+
+.footer-title {
+  svg {
+    height: 80px;
+  }
+}
