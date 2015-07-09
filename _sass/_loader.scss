@@ -7,7 +7,7 @@
   display: block;
   padding: 80px;
   margin-top: 0;
-  @include transition(all 200ms 1200ms ease-in);
+  @include transition(all 500ms 500ms ease-in);
   .play {
     svg {
       width: 150px;
