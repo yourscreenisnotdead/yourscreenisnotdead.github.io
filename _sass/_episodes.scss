@@ -75,6 +75,9 @@
 .page-heading {
   font-size: 3em;
   color: $brand-color;
+  @media screen and (max-width: 700px) {
+    font-size: 1.2em;
+  }
 }
 
 .post-list {
