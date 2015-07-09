@@ -6,8 +6,7 @@
   z-index: 2000;
   display: block;
   padding: 80px;
-  margin-top: 0;
-  @include transition(all 500ms 500ms ease-in);
+  opacity: 1;
   .play {
     svg {
       width: 150px;
@@ -16,10 +15,7 @@
 }
 
 .load-finished {
-  margin-top: -300%;
-  @media screen and (max-width: 700px) {
-    margin-top: -300%;
-  }
+  opacity: 0;
 }
 
 .loader,
