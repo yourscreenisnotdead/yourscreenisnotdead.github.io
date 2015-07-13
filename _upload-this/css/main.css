@@ -714,7 +714,6 @@ footer h1 {
   display: block;
   padding: 80px;
   opacity: 1;
-  pointer-events: none;
   -webkit-transition: opacity 0ms 300ms ease;
   -moz-transition: opacity 0ms 300ms ease;
   transition: opacity 0ms 300ms ease; }
@@ -722,7 +721,8 @@ footer h1 {
     width: 150px; }
 
 .load-finished {
-  opacity: 0; }
+  opacity: 0;
+  pointer-events: none; }
 
 .loader,
 .loader:before,

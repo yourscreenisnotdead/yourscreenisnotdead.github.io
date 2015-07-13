@@ -7,7 +7,6 @@
   display: block;
   padding: 80px;
   opacity: 1;
-  pointer-events: none;
   @include transition(opacity 0ms 300ms ease);
   .play {
     svg {
@@ -18,6 +17,7 @@
 
 .load-finished {
   opacity: 0;
+  pointer-events: none;
 }
 
 .loader,
