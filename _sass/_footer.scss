@@ -1,23 +1,29 @@
 .page-content {
   min-height: 100%;
-  margin-bottom: -185px;
+  margin-bottom: -300px;
   overflow: hidden;
 }
 .page-content:after {
   content: "";
   display: block;
-  height: 185px;
+  height: 300px;
 }
 
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: 50px 0;
     background-color: $brand-color;
-    height: 135px;
+    height: 250px;
 }
 
-.footer-title {
-  svg {
-    height: 80px;
+footer h1 {
+  @include span-columns(8);
+  @include shift(2);
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.01em;
+  position: relative;
+  a {
+    text-decoration: underline;
+    color: #fff;
   }
 }
