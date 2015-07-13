@@ -6,7 +6,7 @@
   z-index: 2000;
   display: block;
   padding: 80px;
-  opacity: 1;
+  margin-top: 0;
   @include transition(opacity 0ms 300ms ease);
   .play {
     svg {
@@ -16,7 +16,7 @@
 }
 
 .load-finished {
-  opacity: 0;
+  margin-top: -300%;
   pointer-events: none;
 }
 

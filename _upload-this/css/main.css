@@ -713,7 +713,7 @@ footer h1 {
   z-index: 2000;
   display: block;
   padding: 80px;
-  opacity: 1;
+  margin-top: 0;
   -webkit-transition: opacity 0ms 300ms ease;
   -moz-transition: opacity 0ms 300ms ease;
   transition: opacity 0ms 300ms ease; }
@@ -721,7 +721,7 @@ footer h1 {
     width: 150px; }
 
 .load-finished {
-  opacity: 0;
+  margin-top: -300%;
   pointer-events: none; }
 
 .loader,
