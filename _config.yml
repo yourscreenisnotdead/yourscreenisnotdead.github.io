@@ -7,8 +7,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-permalink: pretty 
-
+permalink: pretty
 
 # Podcast General Settings
 # ------------------------------------------------------------------------
@@ -17,7 +16,7 @@ permalink: pretty
 podcastSite: http://www.yourscreenisnotdead.com
 
 # The cover image for the podcast, will show in search results in iTunes
-podcastCoverImg: http://wwww.YourSite.com/imageSize1400x1400-min.jpg
+podcastCoverImg: http://wwww.yourscreenisnotdead.com/img/ShowArt.jpg
 
 # The name of your podcast
 podcastTitle: Your Screen Is Not Dead
@@ -30,7 +29,7 @@ podcastEmail: herrera.jeffrey@gmail.com
 category: TV & Film
 
 # is it too dangerous for the impressionable kiddos?
-podcastIsExplicit: "no"
+podcastIsExplicit: "yes"
 
 
 podcastAuthor: Jeffrey Herrera, Carlos Renaso, Carlos Salcedo
@@ -56,3 +55,8 @@ destination: _upload-this
 
 # Keep the readme out of the output folder
 exclude: ['readme.md']
+
+# Next Episode Settings
+# ------------------------------------------------------------------------
+nextMovie: Ex Machina
+nextMovieLink: http://www.imdb.com/title/tt0470752/?ref_=fn_al_tt_1

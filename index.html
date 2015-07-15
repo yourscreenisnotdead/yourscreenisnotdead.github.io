@@ -13,7 +13,7 @@ layout: default
         <p>Latest Episode</p>
         <h1>{{ post.title }}</h1>
         <span class="player">
-          <audio src="https://googledrive.com/host/0BzNYNCWgKyw2NHhFUHNadlpSeUE/Ralphy's Theme - Jeffrey Herrera.mp3" preload="auto" />
+          <audio src="https://googledrive.com/host/0BzNYNCWgKyw2NHhFUHNadlpSeUE/Ralphy's Theme - Jeffrey Herrera.mp3" preload="none" />
         </span>
       </span>
       {% endfor %}
@@ -24,18 +24,18 @@ layout: default
   </div>
 </div>
 
-
 <div class="home">
 
-  <h1 class="page-heading">previous episodes</h1>
+  <h1 class="page-heading">all episodes</h1>
 
   <ul class="post-list">
-    {% for post in site.posts offset:1 %}
+    {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <p class="post-excerpt">{{ post.subtitle | remove: '<p>' | remove: '</p>' }}</p>
         </h2>
       </li>
     {% endfor %}

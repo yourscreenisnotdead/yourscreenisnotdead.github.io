@@ -17,20 +17,20 @@
       <itunes:email>herrera.jeffrey@gmail.com</itunes:email>
     </itunes:owner>``
 
-    <itunes:image href="http://wwww.YourSite.com/imageSize1400x1400-min.jpg" />
+    <itunes:image href="http://wwww.yourscreenisnotdead.com/img/ShowArt.jpg" />
 
     <itunes:category text="TV & Film">
       <itunes:category text=""/>
     </itunes:category>
 
-    <itunes:explicit>no</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
     
     <item>
-      <title>Whiplash</title>
+      <title>Not Quite My Tempo</title>
       <itunes:subtitle>Oh the intensity!</itunes:subtitle>
       <itunes:author>Jeffrey Herrera, Carlos Renaso, Carlos Salcedo</itunes:author>
       <itunes:summary>Three passionate Uptown, NYC friends break down their favorite films from current releases to older classics.  No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it.</itunes:summary>
-      <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg" />
+      <itunes:image href="http://www.yourscreenisnotdead.com/img/ShowArt.jpg" />
 
       <enclosure url="http://example.com/podcasts/everything/AllAboutEverythingEpisode3.m4a" length="8727310" type="audio/mpeg" />
 

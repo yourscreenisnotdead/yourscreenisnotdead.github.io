@@ -75,8 +75,6 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #304FFE;
   text-decoration: none; }
-  a:visited {
-    color: #0123e0; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -159,6 +157,9 @@ pre {
         clear: both;
         content: "";
         display: table; } }
+  @media screen and (min-width: 701px) and (max-width: 1150px) {
+    .home, .header-wrapper, .footer-wrapper, .hero-wrapper, .post {
+      margin: 0 20px; } }
 
 .home, .post {
   padding-bottom: 100px; }
@@ -183,45 +184,15 @@ pre {
 .site-nav {
   float: right;
   line-height: 56px; }
-  .site-nav .menu-icon {
-    display: none; }
   .site-nav .page-link {
     color: #FFF;
     line-height: 1.5;
     letter-spacing: 0.01em; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 30px;
-      background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px; } }
+      margin-right: 10px; } }
 
 /**
  * Page content
@@ -382,8 +353,7 @@ pre {
     margin-right: 2.35765%;
     width: 48.82117%;
     border: 5px solid #304FFE;
-    background-color: #e8e8e8;
-    padding: 50px;
+    padding: 30px;
     color: white; }
     .post-list li:last-child {
       margin-right: 0; }
@@ -402,22 +372,55 @@ pre {
         .post-list li:nth-child(0) {
           margin-right: 0; } }
 
+.post-excerpt {
+  color: black;
+  font-size: 0.625em;
+  letter-spacing: 0.01em; }
+
+.announcement {
+  width: 100%;
+  margin-right: 0;
+  display: block;
+  background-color: #111;
+  padding: 10px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  font-weight: 500;
+  letter-spacing: 0.1em; }
+  .announcement a {
+    color: white;
+    text-decoration: underline; }
+    .announcement a:hover {
+      color: #304FFE; }
+
 .page-content {
   min-height: 100%;
-  margin-bottom: -300px;
+  margin-bottom: -340px;
   overflow: hidden; }
+  @media screen and (max-width: 700px) {
+    .page-content {
+      margin-bottom: -290px; } }
 
 .page-content:after {
   content: "";
   display: block;
-  height: 300px; }
+  height: 340px; }
+  @media screen and (max-width: 700px) {
+    .page-content:after {
+      height: 290px; } }
 
 .site-footer {
   padding: 50px 0;
   background-color: #304FFE;
   height: 250px; }
+  @media screen and (max-width: 700px) {
+    .site-footer {
+      height: 200px; } }
 
-footer h1 {
+.site-footer h1 {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -426,12 +429,15 @@ footer h1 {
   text-align: center;
   color: #fff;
   letter-spacing: 0.01em;
-  position: relative; }
-  footer h1:last-child {
+  display: block; }
+  .site-footer h1:last-child {
     margin-right: 0; }
-  footer h1 a {
+  .site-footer h1 a {
     text-decoration: underline;
     color: #fff; }
+  @media screen and (max-width: 700px) {
+    .site-footer h1 {
+      font-size: 1.125em; } }
 
 .audioplayer {
   height: 2.5em;
