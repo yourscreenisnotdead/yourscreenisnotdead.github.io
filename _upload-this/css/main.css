@@ -435,6 +435,8 @@ pre {
   .site-footer h1 a {
     text-decoration: underline;
     color: #fff; }
+    .site-footer h1 a:hover {
+      color: #111; }
   @media screen and (max-width: 700px) {
     .site-footer h1 {
       font-size: 1.125em; } }
