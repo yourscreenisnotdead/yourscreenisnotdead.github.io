@@ -41,7 +41,7 @@
   p {
     font-size: em(12px);
     font-weight: 700;
-    letter-spacing: 0.1;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     position: relative;
     top: 15px;
@@ -168,4 +168,17 @@
     border: 5px solid lighten($brand-color, 2%);
     color: white;
   }
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+.credits {
+  font-size: em(12px);
+  margin-top: 50px;
 }

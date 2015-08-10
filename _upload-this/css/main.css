@@ -248,7 +248,8 @@ pre {
   line-height: 1;
   font-size: 3em;
   color: #304FFE;
-  text-transform: lowercase; }
+  position: relative;
+  left: -4px; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
@@ -342,7 +343,7 @@ pre {
 .hero-latest p {
   font-size: 0.75em;
   font-weight: 700;
-  letter-spacing: 0.1;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   position: relative;
   top: 15px; }
@@ -489,6 +490,16 @@ pre {
     background-color: #3a58fe;
     border: 5px solid #3a58fe;
     color: white; }
+
+.prev {
+  float: left; }
+
+.next {
+  float: right; }
+
+.credits {
+  font-size: 0.75em;
+  margin-top: 50px; }
 
 .your-hosts {
   margin-top: 50px;

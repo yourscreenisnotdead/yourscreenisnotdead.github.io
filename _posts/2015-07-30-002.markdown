@@ -8,8 +8,10 @@ subtitle: In our second episode we tackle a Sci-Fi movie that we think is an ins
 
 In our second episode we tackle a Sci-Fi movie that we think is an instant classic, and one of the best movies this year; Ex-Machina! We cover gender roles, why the design of Ava is so cool, and  what we think happens once she's out in the world.
 
-
-Extra Music provided by:
-"Winner Winner!" Kevin MacLeod (incompetech.com)
-Licensed under Creative Commons: By Attribution 3.0
+<div class="credits">
+--<br>
+Extra ending music provided by:<br>
+"Winner Winner!" Kevin MacLeod (incompetech.com)<br>
+Licensed under Creative Commons: By Attribution 3.0<br>
 http://creativecommons.org/licenses/by/3.0/
+</div>
