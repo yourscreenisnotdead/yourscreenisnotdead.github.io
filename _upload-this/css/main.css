@@ -538,7 +538,8 @@ pre {
       font-size: .7em;
       height: 75px;
       margin-top: 50px;
-      font-weight: 400; } }
+      font-weight: 400;
+      padding: 10px 30px; } }
   .next-prev-links:hover {
     background-color: #3a58fe;
     border: 5px solid #3a58fe;
