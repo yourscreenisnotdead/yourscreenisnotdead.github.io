@@ -436,6 +436,15 @@ pre {
   margin-left: 8.5298%; }
   .pagination:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 700px) {
+    .pagination {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%; }
+      .pagination:last-child {
+        margin-right: 0; } }
 
 .next-prev-links {
   float: left;
@@ -456,7 +465,8 @@ pre {
     .next-prev-links {
       font-size: .7em;
       height: 75px;
-      margin-top: 50px; } }
+      margin-top: 50px;
+      font-weight: 400; } }
   .next-prev-links:hover {
     background-color: #3a58fe;
     border: 5px solid #3a58fe;

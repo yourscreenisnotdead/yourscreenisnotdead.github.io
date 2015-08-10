@@ -138,6 +138,11 @@
 .pagination {
   @include span-columns(10);
   @include shift;
+
+  @media screen and (max-width: 700px) {
+    @include span-columns(12);
+    @include shift(0);
+  }
 }
 
 .next-prev-links {
@@ -155,6 +160,7 @@
     font-size: .7em;
     height: 75px;
     margin-top: 50px;
+    font-weight: 400;
   }
 
   &:hover {
