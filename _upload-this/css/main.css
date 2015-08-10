@@ -524,7 +524,7 @@ pre {
   margin-right: 2.35765%;
   width: 48.82117%;
   border: 5px solid #304FFE;
-  padding: 30px;
+  padding: 10px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -538,8 +538,7 @@ pre {
       font-size: .7em;
       height: 75px;
       margin-top: 50px;
-      font-weight: 400;
-      padding: 10px 30px; } }
+      font-weight: 400; } }
   .next-prev-links:hover {
     background-color: #3a58fe;
     border: 5px solid #3a58fe;
