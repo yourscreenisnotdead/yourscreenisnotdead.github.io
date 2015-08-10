@@ -629,12 +629,14 @@ pre {
 .site-footer {
   padding: 50px 0;
   background-color: #304FFE;
-  height: 250px; }
+  height: 250px;
+  display: flex;
+  align-items: center; }
   @media screen and (max-width: 700px) {
     .site-footer {
       height: 200px; } }
 
-.site-footer h1 {
+.footer-text {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -643,25 +645,23 @@ pre {
   text-align: center;
   color: #fff;
   letter-spacing: 0.01em;
-  display: block;
   font-size: 1.5em; }
-  .site-footer h1:last-child {
+  .footer-text:last-child {
     margin-right: 0; }
-  .site-footer h1 a {
+  .footer-text a {
     text-decoration: underline;
     color: #fff; }
-    .site-footer h1 a:hover {
+    .footer-text a:hover {
       color: #111; }
   @media screen and (max-width: 700px) {
-    .site-footer h1 {
+    .footer-text {
       font-size: 0.75em;
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%;
-      margin-left: 0%;
-      margin-top: -10px; }
-      .site-footer h1:last-child {
+      width: 82.94039%;
+      margin-left: 8.5298%; }
+      .footer-text:last-child {
         margin-right: 0; } }
 
 .audioplayer {
