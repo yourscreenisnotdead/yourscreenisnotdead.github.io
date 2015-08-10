@@ -655,7 +655,7 @@ pre {
       color: #111; }
   @media screen and (max-width: 700px) {
     .footer-text {
-      font-size: 0.75em;
+      font-size: 0.875em;
       float: left;
       display: block;
       margin-right: 2.35765%;
