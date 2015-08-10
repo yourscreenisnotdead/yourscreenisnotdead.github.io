@@ -152,7 +152,7 @@
 .next-prev-links {
   @include span-columns(6);
   border: 5px solid $brand-color;
-  padding: 10px 30px;
+  padding: 30px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
