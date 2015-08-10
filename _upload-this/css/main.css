@@ -16,13 +16,17 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+*::selection {
+  background: #304FFE;
+  color: white; }
+
 html, body {
   height: 100%; }
 
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.8;
   font-weight: 300;
   color: #111;
   background-color: #fdfdfd;
@@ -186,7 +190,7 @@ pre {
   line-height: 56px; }
   .site-nav .page-link {
     color: #FFF;
-    line-height: 1.5;
+    line-height: 1.8;
     letter-spacing: 0.01em; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -221,9 +225,17 @@ pre {
  * Posts
  */
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%; }
+  .post-header:last-child {
+    margin-right: 0; }
 
 .post-title {
+  margin-bottom: 30px;
   line-height: 1;
   font-size: 3em;
   color: #304FFE;
@@ -233,7 +245,13 @@ pre {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%; }
+  .post-content:last-child {
+    margin-right: 0; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
@@ -354,7 +372,11 @@ pre {
     width: 48.82117%;
     border: 5px solid #304FFE;
     padding: 30px;
-    color: white; }
+    color: white;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     .post-list li:last-child {
       margin-right: 0; }
     .post-list li:nth-child(2n) {
@@ -395,6 +417,72 @@ pre {
     text-decoration: underline; }
     .announcement a:hover {
       color: #304FFE; }
+
+.next-prev-links {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  height: 150px;
+  border: 5px solid #304FFE;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #304FFE;
+  text-align: center;
+  margin-top: 100px; }
+  .next-prev-links:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 700px) {
+    .next-prev-links {
+      font-size: .7em;
+      height: 75px;
+      margin-top: 50px; } }
+  .next-prev-links:hover {
+    background-color: #3a58fe;
+    border: 5px solid #3a58fe;
+    color: white; }
+
+.your-hosts {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-top: 5px solid #304FFE; }
+  .your-hosts .omega {
+    margin-left: 8.5298%;
+    margin-right: 0; }
+  .your-hosts h3 {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 0.5; }
+  .your-hosts .host {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    .your-hosts .host:last-child {
+      margin-right: 0; }
+    .your-hosts .host h2 {
+      text-transform: uppercase;
+      font-size: 0.75em;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: #304FFE;
+      margin-top: 20px; }
+    .your-hosts .host .host-description {
+      font-size: 0.75em;
+      font-weight: 400;
+      line-height: 2; }
+
+.social {
+  list-style: none;
+  margin-left: 0; }
+  .social li {
+    float: left;
+    margin-right: 10px;
+    font-size: 0.75em;
+    font-weight: 400; }
 
 .page-content {
   min-height: 100%;

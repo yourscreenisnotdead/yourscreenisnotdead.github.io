@@ -94,9 +94,12 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    @include span-columns(10);
+    @include shift;
 }
 
 .post-title {
+    margin-bottom: $spacing-unit;
     line-height: 1;
     font-size: 3em;
     color: $brand-color;
@@ -107,7 +110,8 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    @include span-columns(10);
+    @include shift;
 
     h2 {
         font-size: 32px;

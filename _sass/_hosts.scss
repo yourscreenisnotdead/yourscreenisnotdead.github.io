@@ -1,0 +1,42 @@
+.your-hosts {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-top: 5px solid $brand-color;
+  .omega {
+    @include shift;
+    @include omega;
+  }
+  h3 {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 0.5;
+  }
+  .host {
+    @include span-columns(5);
+    h2 {
+      text-transform: uppercase;
+      font-size: em(12px);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: $brand-color;
+      margin-top: 20px;
+    }
+    .host-description {
+      font-size: em(12px);
+      font-weight: 400;
+      line-height: 2;
+    }
+  }
+}
+
+.social {
+  list-style: none;
+  margin-left: 0;
+  li {
+    float: left;
+    margin-right: 10px;
+    font-size: em(12px);
+    font-weight: 400;
+  }
+}

@@ -14,6 +14,11 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 
+*::selection {
+  background: $brand-color;
+  color: white;
+}
+
 html, body {
   height: 100%;
 }
