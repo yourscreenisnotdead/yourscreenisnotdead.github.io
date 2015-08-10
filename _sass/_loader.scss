@@ -1,13 +1,16 @@
 .load {
   position: fixed;
-  height: 100%;
+  top: 0;
+  left: 0;
+  height: 100vh;
   width: 100%;
   background-color: $brand-color;
   z-index: 2000;
   display: block;
   padding: 80px;
   margin-top: 0;
-  @include transition(all 700ms ease-in 400ms);
+  opacity: 1;
+  @include transition(all 300ms ease-in-out 400ms);
   .play {
     svg {
       width: 150px;
@@ -16,8 +19,9 @@
 }
 
 .load-finished {
-  margin-top: -300%;
+  margin-top: 5vh;
   pointer-events: none;
+  opacity: 0;
 }
 
 .loader,

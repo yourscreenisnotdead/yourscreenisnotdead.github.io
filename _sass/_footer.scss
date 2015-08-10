@@ -43,5 +43,6 @@
     font-size: em(12px);
     @include span-columns(12);
     @include shift(0);
+    margin-top: -10px;
   }
 }

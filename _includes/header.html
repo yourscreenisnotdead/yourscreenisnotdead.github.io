@@ -7,6 +7,20 @@
 
   <div class="header-wrapper">
 
+    <nav class="mobile-nav">
+      <a href="/">Episodes</a>
+      {% for page in site.pages %}
+      {% if page.title %}
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+      {% endfor %}
+      <a class="subscribe" href="#">Subscribe</a>
+      <div class="border-menu">
+        <span></span>
+      </div>
+      <p>MENU</p>
+    </nav>
+
     <nav class="site-nav">
         <a class="page-link" href="/">Episodes</a>
         {% for page in site.pages %}
@@ -16,6 +30,7 @@
         {% endfor %}
         <a class="page-link subscribe" href="#">Subscribe</a>
     </nav>
+
 
   </div>
 
