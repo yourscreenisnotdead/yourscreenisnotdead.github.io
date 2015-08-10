@@ -428,12 +428,20 @@ pre {
     .announcement a:hover {
       color: #304FFE; }
 
+.pagination {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%; }
+  .pagination:last-child {
+    margin-right: 0; }
+
 .next-prev-links {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
-  height: 150px;
   border: 5px solid #304FFE;
   padding: 30px;
   display: flex;

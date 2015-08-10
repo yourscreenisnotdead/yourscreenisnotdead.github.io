@@ -135,9 +135,13 @@
   }
 }
 
+.pagination {
+  @include span-columns(10);
+  @include shift;
+}
+
 .next-prev-links {
   @include span-columns(6);
-  height: 150px;
   border: 5px solid $brand-color;
   padding: 30px;
   display: flex;
