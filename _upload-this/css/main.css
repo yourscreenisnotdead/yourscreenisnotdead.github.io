@@ -552,7 +552,8 @@ pre {
 
 .credits {
   font-size: 0.75em;
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-weight: 400; }
 
 .your-hosts {
   margin-top: 50px;
