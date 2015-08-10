@@ -86,15 +86,23 @@
     @include span-columns(6);
     @include omega(2n);
     border: 5px solid $brand-color;
-    padding: 30px;
     color: white;
     height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @media screen and (max-width: 700px) {
+    flex-grow: 1;
+    .post-meta {
       @include span-columns(12);
-      @include omega(0);
+      @include omega;
+    }
+    .episode-text {
+      margin: 30px;
+    }
+    @media screen and (max-width: 800px) {
+      @include span-columns(12);
+      @include omega;
+      height: auto;
     }
   }
 }

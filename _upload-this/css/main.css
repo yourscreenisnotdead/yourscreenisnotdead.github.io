@@ -371,27 +371,37 @@ pre {
     margin-right: 2.35765%;
     width: 48.82117%;
     border: 5px solid #304FFE;
-    padding: 30px;
     color: white;
     height: 320px;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    flex-grow: 1; }
     .post-list li:last-child {
       margin-right: 0; }
     .post-list li:nth-child(2n) {
       margin-right: 0; }
     .post-list li:nth-child(2n+1) {
       clear: left; }
-    @media screen and (max-width: 700px) {
+    .post-list li .post-meta {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-right: 0; }
+      .post-list li .post-meta:last-child {
+        margin-right: 0; }
+    .post-list li .episode-text {
+      margin: 30px; }
+    @media screen and (max-width: 800px) {
       .post-list li {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 100%; }
+        width: 100%;
+        margin-right: 0;
+        height: auto; }
         .post-list li:last-child {
-          margin-right: 0; }
-        .post-list li:nth-child(0) {
           margin-right: 0; } }
 
 .post-excerpt {
@@ -523,7 +533,8 @@ pre {
   text-align: center;
   color: #fff;
   letter-spacing: 0.01em;
-  display: block; }
+  display: block;
+  font-size: 1.5em; }
   .site-footer h1:last-child {
     margin-right: 0; }
   .site-footer h1 a {
@@ -533,7 +544,7 @@ pre {
       color: #111; }
   @media screen and (max-width: 700px) {
     .site-footer h1 {
-      font-size: 1.125em; } }
+      font-size: 0.875em; } }
 
 .audioplayer {
   height: 2.5em;
