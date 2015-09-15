@@ -32,6 +32,9 @@ body {
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
 
+.post-content iframe {
+  background-color: #111 !important; }
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
