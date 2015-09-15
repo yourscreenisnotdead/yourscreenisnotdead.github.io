@@ -194,11 +194,11 @@ pre {
 .site-nav {
   float: right;
   line-height: 56px; }
-  .site-nav .page-link {
+  .site-nav .page-link, .site-nav .subscribe {
     color: #FFF;
     line-height: 1.8;
     letter-spacing: 0.01em; }
-    .site-nav .page-link:not(:first-child) {
+    .site-nav .page-link:not(:first-child), .site-nav .subscribe:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 700px) {
     .site-nav {
