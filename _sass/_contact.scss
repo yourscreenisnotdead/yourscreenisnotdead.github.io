@@ -30,6 +30,12 @@ input {
   &:focus{
     outline: none;
   }
+  autofill {
+    background-color: transparent;
+  }
+  -webkit-autofill {
+    background-color: transparent;
+  }
 }
 
 textarea {

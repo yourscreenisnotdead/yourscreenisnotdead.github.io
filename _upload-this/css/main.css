@@ -1050,6 +1050,10 @@ input {
   background-color: transparent; }
   input:focus {
     outline: none; }
+  input autofill {
+    background-color: transparent; }
+  input -webkit-autofill {
+    background-color: transparent; }
 
 textarea {
   border: 1px solid #304FFE;
