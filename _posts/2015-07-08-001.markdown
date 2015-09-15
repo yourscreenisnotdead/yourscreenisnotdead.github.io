@@ -9,9 +9,7 @@ subtitle: For our first episode we discuss the film Whiplash. We obsess over Bud
 <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/17281?style=dark' width='100%'></iframe>
 
 <br>
-<p class="episode_text" markdown="1">
-For our first episode we discuss the film Whiplash. We obsess over Buddy Rich, Jeff's hatred for The Great Gatsby, bloody hands, and JK Simmons.
-</p>
+<p class="episode_text">For our first episode we discuss the film Whiplash. We obsess over Buddy Rich, Jeff's hatred for The Great Gatsby, bloody hands, and JK Simmons.</p>
 <br>
 
 **Show Notes:**
