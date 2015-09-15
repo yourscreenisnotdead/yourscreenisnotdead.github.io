@@ -1030,7 +1030,7 @@ pre {
 
 label {
   position: absolute;
-  z-index: -2;
+  z-index: 2;
   color: #304FFE;
   display: block;
   width: 100%;
