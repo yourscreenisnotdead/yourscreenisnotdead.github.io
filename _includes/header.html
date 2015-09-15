@@ -10,9 +10,11 @@
     <nav class="mobile-nav">
       <a href="/">Episodes</a>
       {% for page in site.pages %}
+      {% unless page.exclude %}
       {% if page.title %}
       <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       {% endif %}
+      {% endunless %}
       {% endfor %}
       <a class="subscribe" href="#">Subscribe</a>
       <div class="border-menu">
@@ -24,9 +26,11 @@
     <nav class="site-nav">
         <a class="page-link" href="/">Episodes</a>
         {% for page in site.pages %}
+          {% unless page.exclude %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
+          {% endunless %}
         {% endfor %}
         <a class="page-link subscribe" href="#">Subscribe</a>
     </nav>
