@@ -3,6 +3,7 @@ layout: post
 title:  "001 Not Quite My Tempo"
 date:   2015-07-08 15:19:33
 categories: podcast
+permalink: /episodes/001-Not-Quite-My-Tempo
 subtitle: For our first episode we discuss the film Whiplash. We obsess over Buddy Rich, Jeff's hatred for The Great Gatsby, bloody hands, and JK Simmons.
 ---
 
