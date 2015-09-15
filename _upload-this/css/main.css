@@ -411,6 +411,7 @@ pre {
   background-image: linear-gradient(to top,rgba(0, 0, 0, 0.7), transparent);
   background-image: url(/img/latest.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-color: rgba(0, 0, 210, 0.9);
   background-blend-mode: multiply;
   z-index: -1; }
@@ -554,6 +555,14 @@ pre {
   font-size: 0.75em;
   margin-top: 50px;
   font-weight: 400; }
+
+.episode_text {
+  font-size: 1.5em;
+  line-height: 1.3;
+  padding-right: 100px; }
+  @media screen and (max-width: 700px) {
+    .episode_text {
+      padding-right: 0; } }
 
 .your-hosts {
   margin-top: 50px;

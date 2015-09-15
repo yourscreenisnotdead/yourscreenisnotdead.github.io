@@ -6,4 +6,16 @@ categories: podcast
 subtitle: For our first episode we discuss the film Whiplash. We obsess over Buddy Rich, Jeff's hatred for The Great Gatsby, bloody hands, and JK Simmons.
 ---
 
+<iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/17281?style=dark' width='100%'></iframe>
+
+<br>
+<div class="episode_text">
 For our first episode we discuss the film Whiplash. We obsess over Buddy Rich, Jeff's hatred for The Great Gatsby, bloody hands, and JK Simmons.
+</div>
+<br>
+
+**Show Notes:**
+
+* Article we discuss - [Richard Brody "Getting Jazz Right in the Movies"](http://www.newyorker.com/culture/richard-brody/whiplash-getting-jazz-right-movies)
+* *Bird (1988)* - [IMDb](http://www.imdb.com/title/tt0094747/) , [Trailer](https://www.youtube.com/watch?v=2qaSYknbapk)
+* *Guy and Madeline on a Park Bench (2009)* - [IMDb](http://www.imdb.com/title/tt1337193/) , [Trailer](https://www.youtube.com/watch?v=KJUzALdI--k)
