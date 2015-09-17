@@ -573,6 +573,16 @@ pre {
     .episode_text {
       padding-right: 0; } }
 
+#disqus_thread {
+  margin-top: 50px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%; }
+  #disqus_thread:last-child {
+    margin-right: 0; }
+
 .your-hosts {
   margin-top: 50px;
   padding-top: 50px;
