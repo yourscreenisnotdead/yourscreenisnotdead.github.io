@@ -92,6 +92,7 @@
     flex-grow: 1;
     .post-link {
       line-height: 1.2;
+      margin-bottom: 10px;
     }
     .post-meta {
       @include span-columns(12);

@@ -461,7 +461,8 @@ pre {
     .post-list li:nth-child(2n+1) {
       clear: left; }
     .post-list li .post-link {
-      line-height: 1.2; }
+      line-height: 1.2;
+      margin-bottom: 10px; }
     .post-list li .post-meta {
       float: left;
       display: block;
@@ -1174,7 +1175,8 @@ pre {
   padding: 15px 40px;
   color: white;
   font-size: 1.125em;
-  font-weight: 300; }
+  font-weight: 300;
+  letter-spacing: 0.1em; }
   .contact_form button:hover {
     background-color: #4965fe; }
 .contact_form .thank-you {

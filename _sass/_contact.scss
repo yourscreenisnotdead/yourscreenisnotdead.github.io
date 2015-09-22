@@ -67,6 +67,7 @@
     color: white;
     font-size: em(18px);
     font-weight: 300;
+    letter-spacing: 0.1em;
     &:hover {
       background-color: lighten($brand-color, 5%);
     }
