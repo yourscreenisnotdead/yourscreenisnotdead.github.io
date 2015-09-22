@@ -241,7 +241,7 @@
     @include shift(0);
   }
 
-    input[type="submit"] {
+  input[type="submit"] {
 
       flex: 1;
       background-color: $brand-color;
@@ -287,9 +287,11 @@
       display: block;
       height: 50px;
       width: 100%;
+
       &:focus {
         outline: 0;
       }
+
     }
 
     label {
