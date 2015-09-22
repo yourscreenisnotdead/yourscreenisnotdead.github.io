@@ -460,6 +460,8 @@ pre {
       margin-right: 0; }
     .post-list li:nth-child(2n+1) {
       clear: left; }
+    .post-list li .post-link {
+      line-height: 1.2; }
     .post-list li .post-meta {
       float: left;
       display: block;
@@ -539,7 +541,7 @@ pre {
   justify-content: center;
   color: #304FFE;
   text-align: center;
-  margin-top: 100px; }
+  margin-top: 50px; }
   .next-prev-links:last-child {
     margin-right: 0; }
   @media screen and (max-width: 700px) {
@@ -582,6 +584,84 @@ pre {
   margin-left: 8.5298%; }
   #disqus_thread:last-child {
     margin-right: 0; }
+
+.newsletter {
+  text-align: center; }
+  .newsletter h2 {
+    color: #304FFE;
+    font-size: 1.5625em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.2; }
+
+.form_display {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%;
+  float: none;
+  border: solid 1px #304FFE;
+  display: flex;
+  margin-bottom: 50px; }
+  .form_display:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 800px) {
+    .form_display {
+      display: block;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%; }
+      .form_display:last-child {
+        margin-right: 0; } }
+  .form_display input[type="submit"] {
+    flex: 1;
+    background-color: #304FFE;
+    width: 120px;
+    border: none;
+    height: 50px;
+    font-size: 0.875em;
+    color: white;
+    letter-spacing: 0.02em; }
+    .form_display input[type="submit"]:focus {
+      outline: 0; }
+    .form_display input[type="submit"]:hover {
+      background-color: #4965fe; }
+    @media screen and (max-width: 800px) {
+      .form_display input[type="submit"] {
+        width: 100%; } }
+  .form_display .mc-field-group {
+    position: relative;
+    flex: 2; }
+    .form_display .mc-field-group:first-child {
+      border-right: solid 1px #304FFE; }
+      @media screen and (max-width: 800px) {
+        .form_display .mc-field-group:first-child {
+          border-right: none;
+          border-bottom: solid 1px #304FFE; } }
+    .form_display .mc-field-group input {
+      position: relative;
+      border: 0;
+      background: none;
+      padding: 20px 5px 5px 5px;
+      font-size: 1.375em;
+      font-weight: 300;
+      display: block;
+      height: 50px;
+      width: 100%; }
+      .form_display .mc-field-group input:focus {
+        outline: 0; }
+    .form_display .mc-field-group label {
+      position: absolute;
+      z-index: 2;
+      font-size: 0.75em;
+      font-weight: 400;
+      color: #304FFE;
+      left: 5px; }
 
 .your-hosts {
   margin-top: 50px;
@@ -1042,11 +1122,10 @@ pre {
   40% {
     box-shadow: 0 -2em #ffffff;
     height: 2.5em; } }
-.input-group {
+.contact_form .input-group {
   position: relative;
   margin-bottom: 30px; }
-
-label {
+.contact_form label {
   position: absolute;
   z-index: 2;
   color: #304FFE;
@@ -1054,8 +1133,7 @@ label {
   width: 100%;
   padding: 13px 10px;
   pointer-events: none; }
-
-input {
+.contact_form input {
   border: 1px solid #304FFE;
   width: 100%;
   position: relative;
@@ -1065,14 +1143,13 @@ input {
   font-size: 1.75em;
   font-weight: light;
   background-color: transparent; }
-  input:focus {
+  .contact_form input:focus {
     outline: none; }
-  input autofill {
+  .contact_form input autofill {
     background-color: transparent; }
-  input -webkit-autofill {
+  .contact_form input -webkit-autofill {
     background-color: transparent; }
-
-textarea {
+.contact_form textarea {
   border: 1px solid #304FFE;
   border-top: none;
   width: 100%;
@@ -1081,10 +1158,9 @@ textarea {
   font-size: 1.25em;
   background-color: transparent;
   margin-top: 40px; }
-  textarea:focus {
+  .contact_form textarea:focus {
     outline: none; }
-
-.message-label {
+.contact_form .message-label {
   margin-top: 5px;
   z-index: 2;
   border: none;
@@ -1092,16 +1168,16 @@ textarea {
   border-left: 1px solid #304FFE;
   border-right: 1px solid #304FFE;
   top: 0; }
-
-button {
+.contact_form button {
   background-color: #304FFE;
   border: none;
-  padding: 30px 50px;
+  padding: 15px 40px;
   color: white;
   font-size: 1.125em;
   font-weight: 300; }
-
-.thank-you {
+  .contact_form button:hover {
+    background-color: #4965fe; }
+.contact_form .thank-you {
   margin: 0 auto; }
 
 /**

@@ -90,6 +90,9 @@
     flex-direction: column;
     justify-content: center;
     flex-grow: 1;
+    .post-link {
+      line-height: 1.2;
+    }
     .post-meta {
       @include span-columns(12);
       @include omega;
@@ -156,7 +159,7 @@
   justify-content: center;
   color: $brand-color;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
 
   @media screen and (max-width: 700px) {
     font-size: .7em;
@@ -198,8 +201,106 @@
   }
 }
 
+// DISQUS
+
 #disqus_thread {
   margin-top: 50px;
   @include span-columns(10);
   @include shift;
+}
+
+
+// NEWSLETTER
+
+.newsletter {
+  text-align: center;
+  h2 {
+    color: $brand-color;
+    font-size: em(25px);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+}
+
+.form_display {
+
+  @include span-columns(8);
+  @include shift(2);
+  // background-color: pink;
+  float: none;
+  border: solid 1px $brand-color;
+  display: flex;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    @include span-columns(12);
+    @include shift(0);
+  }
+
+    input[type="submit"] {
+
+      flex: 1;
+      background-color: $brand-color;
+      width: 120px;
+      border: none;
+      height: 50px;
+      font-size: em(14px);
+      color: white;
+      letter-spacing: 0.02em;
+
+      &:focus {
+        outline: 0;
+      }
+      &:hover {
+        background-color: lighten($brand-color, 5%);
+      }
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+      }
+
+    }
+
+  .mc-field-group {
+    position: relative;
+    flex: 2;
+
+    &:first-child {
+      border-right: solid 1px $brand-color;
+      @media screen and (max-width: 800px) {
+        border-right: none;
+        border-bottom: solid 1px $brand-color;
+      }
+    }
+
+    input {
+      position: relative;
+      border: 0;
+      background: none;
+      padding: 20px 5px 5px 5px;
+      font-size: em(22px);
+      font-weight: 300;
+      display: block;
+      height: 50px;
+      width: 100%;
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    label {
+      position: absolute;
+      z-index: 2;
+      font-size: em(12px);
+      font-weight: 400;
+      color: $brand-color;
+      left: 5px;
+    }
+
+  }
+
 }
