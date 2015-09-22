@@ -70,6 +70,7 @@
     letter-spacing: 0.1em;
     -webkit-appearance: none;
     -moz-appearance: none;
+    -webkit-border-radius:0px;
     &:hover {
       background-color: lighten($brand-color, 5%);
     }

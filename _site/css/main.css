@@ -629,7 +629,8 @@ pre {
     color: white;
     letter-spacing: 0.02em;
     -webkit-appearance: none;
-    -moz-appearance: none; }
+    -moz-appearance: none;
+    -webkit-border-radius: 0px; }
     .form_display input[type="submit"]:focus {
       outline: 0; }
     .form_display input[type="submit"]:hover {
@@ -1180,7 +1181,8 @@ pre {
   font-weight: 300;
   letter-spacing: 0.1em;
   -webkit-appearance: none;
-  -moz-appearance: none; }
+  -moz-appearance: none;
+  -webkit-border-radius: 0px; }
   .contact_form button:hover {
     background-color: #4965fe; }
 .contact_form .thank-you {
