@@ -252,6 +252,8 @@
       font-size: em(14px);
       color: white;
       letter-spacing: 0.02em;
+      -webkit-appearance: none;
+      -moz-appearance: none;
 
       &:focus {
         outline: 0;

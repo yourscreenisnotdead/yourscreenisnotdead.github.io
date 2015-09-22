@@ -68,6 +68,8 @@
     font-size: em(18px);
     font-weight: 300;
     letter-spacing: 0.1em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     &:hover {
       background-color: lighten($brand-color, 5%);
     }
