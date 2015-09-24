@@ -1209,7 +1209,10 @@ pre {
   padding: 10px 10px 10px 65px;
   font-size: 1.75em;
   font-weight: light;
-  background-color: transparent; }
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-border-radius: 0px; }
   .contact_form input:focus {
     outline: none; }
   .contact_form input autofill {

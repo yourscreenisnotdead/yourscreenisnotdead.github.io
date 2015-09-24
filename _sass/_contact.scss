@@ -25,6 +25,9 @@
     font-size: em(28px);
     font-weight: light;
     background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius:0px;
     &:focus{
       outline: none;
     }
