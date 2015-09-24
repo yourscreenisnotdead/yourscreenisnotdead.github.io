@@ -86,10 +86,10 @@
     border: 5px solid $brand-color;
     color: white;
     height: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-grow: 1;
+    @include display(flex);
+    @include flex-direction(column);
+    @include justify-content(center);
+    // flex-grow: 1;
     .post-link {
       line-height: 1.2;
       margin-bottom: 10px;
@@ -155,9 +155,9 @@
   @include span-columns(6);
   border: 5px solid $brand-color;
   padding: 30px 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(center);
   color: $brand-color;
   text-align: center;
   margin-top: 50px;
@@ -233,8 +233,7 @@
   // background-color: pink;
   float: none;
   border: solid 1px $brand-color;
-  -webkit-display: flex;
-  display: flex;
+  @include display(flex);
   margin-bottom: 50px;
 
   @media screen and (max-width: 800px) {
@@ -245,8 +244,7 @@
 
   input[type="submit"] {
 
-      flex: 1;
-      -webkit-flex: 1;
+      @include flex(1);
       background-color: $brand-color;
       width: 120px;
       border: none;
@@ -273,8 +271,7 @@
 
   .mc-field-group {
     position: relative;
-    flex: 2;
-    -webkit-flex: 2;
+    @include flex(2);
 
     &:first-child {
       border-right: solid 1px $brand-color;
