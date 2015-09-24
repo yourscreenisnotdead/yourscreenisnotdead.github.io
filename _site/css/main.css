@@ -1227,7 +1227,10 @@ pre {
   padding: 20px 10px 10px 10px;
   font-size: 1.25em;
   background-color: transparent;
-  margin-top: 40px; }
+  margin-top: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-border-radius: 0px; }
   .contact_form textarea:focus {
     outline: none; }
 .contact_form .message-label {
