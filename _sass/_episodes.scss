@@ -233,6 +233,7 @@
   // background-color: pink;
   float: none;
   border: solid 1px $brand-color;
+  -webkit-display: flex;
   display: flex;
   margin-bottom: 50px;
 
@@ -245,6 +246,7 @@
   input[type="submit"] {
 
       flex: 1;
+      -webkit-flex: 1;
       background-color: $brand-color;
       width: 120px;
       border: none;
@@ -272,6 +274,7 @@
   .mc-field-group {
     position: relative;
     flex: 2;
+    -webkit-flex: 2;
 
     &:first-child {
       border-right: solid 1px $brand-color;

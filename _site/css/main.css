@@ -605,6 +605,7 @@ pre {
   margin-left: 17.05961%;
   float: none;
   border: solid 1px #304FFE;
+  -webkit-display: flex;
   display: flex;
   margin-bottom: 50px; }
   .form_display:last-child {
@@ -621,6 +622,7 @@ pre {
         margin-right: 0; } }
   .form_display input[type="submit"] {
     flex: 1;
+    -webkit-flex: 1;
     background-color: #304FFE;
     width: 120px;
     border: none;
@@ -640,7 +642,8 @@ pre {
         width: 100%; } }
   .form_display .mc-field-group {
     position: relative;
-    flex: 2; }
+    flex: 2;
+    -webkit-flex: 2; }
     .form_display .mc-field-group:first-child {
       border-right: solid 1px #304FFE; }
       @media screen and (max-width: 800px) {
