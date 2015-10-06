@@ -4,6 +4,9 @@ email: yourscreenisnotdead@gmail.com
 description: Three passionate Uptown, NYC friends who love and enjoy movies break down their favorite films from current releases to older classics. No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it. This is our contribution to film appreciation.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+gems:
+  - jekyll-redirect-from
+
 
 # Build settings
 markdown: kramdown
