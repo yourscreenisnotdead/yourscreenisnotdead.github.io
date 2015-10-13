@@ -12,7 +12,7 @@ exclude: true
       {% for post in site.posts offset: 0 limit: 1 %}
       <span class="hero-latest">
         <p>Latest Episode</p>
-        <h1>{{ post.title }}</h1>
+        <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
         <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/18201?style=light' width='100%'></iframe>
       </span>
       {% endfor %}
@@ -24,6 +24,25 @@ exclude: true
 </div>
 
 <div class="home">
+
+
+  <h1 class="page-heading">all episodes</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <div class="episode-bg" style="background-image:url('/img/{{ post.number }}.jpg');"></div>
+        <div class="episode-text">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <p class="post-excerpt">{{ post.subtitle | remove: '<p>' | remove: '</p>' }}</p>
+          </h2>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
   <div class="newsletter">
     <h2>sign up to our list for timely updates<br>(fyi, we hate spam too.)</h2>
 
@@ -35,19 +54,19 @@ exclude: true
           <div class="form_display">
 
             <div class="mc-field-group">
-            	<label for="mce-FNAME">First Name </label>
-            	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+              <label for="mce-FNAME">First Name </label>
+              <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
             </div>
 
             <div class="mc-field-group">
-            	<label for="mce-EMAIL">Email</label>
-            	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              <label for="mce-EMAIL">Email</label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
             </div>
 
-            	<div id="mce-responses" class="clear">
-            		<div class="response" id="mce-error-response" style="display:none"></div>
-            		<div class="response" id="mce-success-response" style="display:none"></div>
-          	</div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
 
             <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 
@@ -62,21 +81,5 @@ exclude: true
 
     <!--End mc_embed_signup-->
   </div>
-
-  <h1 class="page-heading">all episodes</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <div class="episode-text">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <p class="post-excerpt">{{ post.subtitle | remove: '<p>' | remove: '</p>' }}</p>
-          </h2>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
 
 </div>

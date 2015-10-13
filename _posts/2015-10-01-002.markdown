@@ -3,6 +3,7 @@ layout: post
 title:  "002 Ava: The Next Session"
 date:   2015-10-1 9:00:33
 categories: podcast
+number: 002
 permalink: /episodes/002-Ava-The-Next-Session
 subtitle: In our second episode we tackle a Sci-Fi movie that we think is an instant classic, and one of the best movies this year; Ex-Machina! We cover gender roles, why the design of Ava is so cool, and  what we think happens once she's out in the world.
 ---

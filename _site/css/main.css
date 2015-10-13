@@ -407,6 +407,11 @@ pre {
   text-transform: uppercase;
   position: relative;
   top: 15px; }
+.hero-latest a {
+  color: white;
+  text-decoration: underline; }
+  .hero-latest a:hover {
+    color: #828282; }
 
 .hero-overlay {
   position: absolute;
@@ -475,13 +480,34 @@ pre {
     -ms-justify-content: center;
     -o-justify-content: center;
     justify-content: center;
-    -ms-flex-pack: center; }
+    -ms-flex-pack: center;
+    position: relative; }
     .post-list li:last-child {
       margin-right: 0; }
     .post-list li:nth-child(2n) {
       margin-right: 0; }
     .post-list li:nth-child(2n+1) {
       clear: left; }
+    .post-list li:hover .episode-bg {
+      background-color: #304FFE;
+      background-blend-mode: multiply;
+      top: 0; }
+    .post-list li:hover .post-excerpt, .post-list li:hover .post-meta {
+      color: white; }
+    .post-list li:hover .post-link {
+      color: #e8e8e8; }
+      .post-list li:hover .post-link:hover {
+        color: white; }
+    .post-list li .episode-bg {
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1; }
     .post-list li .post-link {
       line-height: 1.2;
       margin-bottom: 10px; }
@@ -639,7 +665,7 @@ pre {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-top: 70px;
     line-height: 1.2; }
 
 .form_display {

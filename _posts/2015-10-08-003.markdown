@@ -3,6 +3,7 @@ layout: post
 title:  "003 Aces High"
 date:   2015-10-08 15:19:33
 categories: podcast
+number: 003
 permalink: /episodes/003-Aces-High
 subtitle: In 'Aces High' we discuss a CLASSIC. Casino, released in 1995 and directed by Martin Scorsese, is a movie the whole team has had a love affair with since screened as teenagers. We discuss Ace's relationship with Ginger, Goodfellas vs Casino, and a detail most of you probably overlooked; the lighting.
 ---
