@@ -49,10 +49,6 @@
   }
   a {
     color: white;
-    text-decoration: underline;
-    &:hover {
-      color: $grey-color;
-    }
   }
 }
 
@@ -99,8 +95,7 @@
     position: relative;
     &:hover {
       .episode-bg {
-        // opacity: 1;
-        background-color: $brand-color;
+        background-color: rgba($brand-vibrant, 1);
         background-blend-mode: multiply;
         top: 0;
       }

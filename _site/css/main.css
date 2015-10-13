@@ -408,10 +408,7 @@ pre {
   position: relative;
   top: 15px; }
 .hero-latest a {
-  color: white;
-  text-decoration: underline; }
-  .hero-latest a:hover {
-    color: #828282; }
+  color: white; }
 
 .hero-overlay {
   position: absolute;
@@ -489,7 +486,7 @@ pre {
     .post-list li:nth-child(2n+1) {
       clear: left; }
     .post-list li:hover .episode-bg {
-      background-color: #304FFE;
+      background-color: #0000d2;
       background-blend-mode: multiply;
       top: 0; }
     .post-list li:hover .post-excerpt, .post-list li:hover .post-meta {
