@@ -1,9 +1,9 @@
 # Site settings
 title: Your Screen Is Not Dead
 email: yourscreenisnotdead@gmail.com
-description: Three passionate Uptown, NYC friends who love and enjoy movies break down their favorite films from current releases to older classics. No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it. This is our contribution to film appreciation.
+description: "Three passionate Uptown, NYC friends who love and enjoy movies break down their favorite films from current releases to older classics. No film is off-limits, no matter how obscure. Every week we announce a new film and give you a week to watch it...then we talk about it. This is our contribution to film appreciation."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://yourscreenisnotdead.com" # the base hostname & protocol for your site
 gems:
   - jekyll-redirect-from
 
@@ -14,5 +14,5 @@ permalink: /episodes/:title
 
 # Next Episode Settings
 # ------------------------------------------------------------------------
-nextMovie: Annie Hall
-nextMovieLink: http://www.imdb.com/title/tt0075686/?ref_=nv_sr_1
+nextMovie: Jackie Brown
+nextMovieLink: http://www.imdb.com/title/tt0119396/?ref_=fn_al_tt_1
