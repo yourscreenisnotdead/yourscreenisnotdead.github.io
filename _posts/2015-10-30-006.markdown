@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "006 Smile, But Not Too Much"
-date:   2015-10-23 15:19:33
+date:   2015-10-30 15:19:33
 categories: podcast
 number: 006
 permalink: /episodes/006-Smile-But-Not-Too-Much
