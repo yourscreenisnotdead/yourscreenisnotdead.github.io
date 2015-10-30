@@ -4,7 +4,7 @@ title:  "005 Absolutely Positively"
 date:   2015-10-23 15:19:33
 categories: podcast
 number: 005
-permalink: /episodes/004-Absolutely-Positively
+permalink: /episodes/005-Absolutely-Positively
 subtitle: In this episode we talk about Jackie Brown's wonderful cinematography, the cinematic quality of its musical score, and of course  the always burning question; where does it rank among Tarantino's filmography ?
 ---
 
