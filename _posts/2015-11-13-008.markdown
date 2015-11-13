@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "008 Love On Standby"
+date:   2015-11-13 15:19:33
+categories: podcast
+number: 8
+permalink: /episodes/008-Love-On-Standby
+subtitle: We're coming to you this week with Chungking Express! We discuss how the men in Chungking Express attempt to get over their former lovers with pineapple cans, jogging, and toy airplanes. As for the women, let's just say you won't mind Faye Wong secretly fixing up your apartment. Quirky romance at its finest!
+---
+
+<iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/20101?style=dark' width='100%'></iframe>
+
+<br>
+<span class="episode_text">
+We're coming to you this week with Chungking Express! We discuss how the men in Chungking Express attempt to get over their former lovers with pineapple cans, jogging, and toy airplanes. As for the women, let's just say you won't mind Faye Wong secretly fixing up your apartment. <br><br>Quirky romance at its finest!
+</span>
+<br><br>
