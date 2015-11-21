@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "002 Ava: The Next Session"
-date:   2015-10-1 9:00:33
+date:   2015-10-1
 categories: podcast
 number: 002
 permalink: /episodes/002-Ava-The-Next-Session

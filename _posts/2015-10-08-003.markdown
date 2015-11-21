@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "003 Aces High"
-date:   2015-10-08 15:19:33
+date:   2015-10-08
 categories: podcast
 number: 003
 permalink: /episodes/003-Aces-High
