@@ -10,7 +10,6 @@ gems:
 
 # Build settings
 markdown: kramdown
-permalink: /episodes/:title
 
 # Next Episode Settings
 # ------------------------------------------------------------------------
