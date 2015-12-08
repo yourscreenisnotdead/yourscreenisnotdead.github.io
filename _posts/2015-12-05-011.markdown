@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "011 Stryka"
+title:  "011 Strika"
 date:   2015-12-05
 categories: podcast
 number: 11
