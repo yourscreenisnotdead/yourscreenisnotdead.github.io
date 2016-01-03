@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "013: Betty Boop"
-date:   2016-01-01
+date:   2016-01-03
 categories: podcast
 number: 13
 permalink: /episodes/013-Betty-Boop
