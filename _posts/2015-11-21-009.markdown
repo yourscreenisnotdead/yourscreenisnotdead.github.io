@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "009 Jelly Donut"
+title:  "009: Jelly Donut"
 date:   2015-11-21
 categories: podcast
 number: 9
 permalink: /episodes/009-Jelly-Donut
-subtitle: Strap your boots up because this week we're going to 'Nam with Full Metal Jacket! We talk about the two halves of the movie, the legacy of Stanley Kubrick, how it stacks up to other Vietnam movies and our experience with films depicting wars we have lived through. We also announce our new sponsor, Audible.com! Visit yourscreenisnotdead.com/audible to get a free audiobook and support the show!
+subtitle: Strap your boots up because this week we're going to 'Nam with Full Metal Jacket! We talk about the two halves of the movie, the legacy of Stanley Kubrick, how it stacks up to other Vietnam movies and our experience with films depicting wars we have lived through. We also announce our new sponsor, Audible.com! <a href="/audible">Click here</a> to get a free audiobook and support the show!
 ---
 
 <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/21026?style=dark' width='100%'></iframe>
 
 <br>
 <span class="episode_text">
-Strap your boots up because this week we're going to 'Nam with Full Metal Jacket! We talk about the two halves of the movie, the legacy of Stanley Kubrick, how it stacks up to other Vietnam movies and our experience with films depicting wars we have lived through. We also announce our new sponsor, Audible.com! Visit yourscreenisnotdead.com/audible to get a free audiobook and support the show!
+Strap your boots up because this week we're going to 'Nam with Full Metal Jacket! We talk about the two halves of the movie, the legacy of Stanley Kubrick, how it stacks up to other Vietnam movies and our experience with films depicting wars we have lived through. We also announce our new sponsor, Audible.com! [Click here](/audible) to get a free audiobook and support the show!
 </span>
 <br><br>

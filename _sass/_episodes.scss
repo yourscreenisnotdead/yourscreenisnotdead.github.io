@@ -1,342 +1,445 @@
 // HERO IMAGE
 
-.hero {
-  width: 100%;
-  display: block;
-  padding: 80px 0;
-  position: relative;
-  top: -30px;
-  @media screen and (max-width: 700px) {
-    padding: 50px 20px;
-  }
-}
-
-.hero-title {
-  @include span-columns(4);
-  text-align: right;
-  margin-top: 23px;
-  svg {
-    height: 290px;
-    width: auto;
-  }
-  @media screen and (max-width: 700px) {
-    @include span-columns(12);
-    text-align: right;
-    margin-bottom: 40px;
-  }
-}
-
-.hero-text {
-  @include span-columns(5);
-  @include shift();
-  @include omega();
-  color: white;
-  @media screen and (max-width: 700px) {
-    @include span-columns(12);
-    @include shift(0);
-    text-align: right;
-  }
-}
-
-.hero-latest {
-  p {
-    font-size: em(12px);
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+.hero
+{
     position: relative;
-    top: 15px;
-  }
-  a {
-    color: white;
-  }
+    top: -30px;
+
+    display: block;
+
+    width: 100%;
+    padding: 80px 0;
+    @media screen and (max-width: 700px)
+    {
+        padding: 50px 20px;
+    }
 }
 
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  @include linear-gradient(to top, rgba(black, 0.7), rgba(black, 0));
-  background-image: url(/img/latest.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: rgba($brand-vibrant, 0.9);
-  background-blend-mode: multiply;
-  z-index: -1;
+.hero-title
+{
+    margin-top: 23px;
+
+    text-align: right;
+
+    @include span-columns(4);
+    svg
+    {
+        width: auto;
+        height: 290px;
+    }
+    @media screen and (max-width: 700px)
+    {
+        margin-bottom: 40px;
+
+        text-align: right;
+
+        @include span-columns(12);
+    }
+}
+
+.hero-text
+{
+    color: white;
+
+    @include span-columns(5);
+    @include shift();
+    @include omega();
+    @media screen and (max-width: 700px)
+    {
+        text-align: right;
+
+        @include span-columns(12);
+        @include shift(0);
+    }
+}
+
+.hero-latest
+{
+    p
+    {
+        font-size: em(12px);
+        font-weight: 700;
+
+        position: relative;
+        top: 15px;
+
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+    a
+    {
+        text-decoration: underline;
+
+        color: white;
+        &:hover
+        {
+            color: $brand-color;
+        }
+    }
+}
+
+.hero-overlay
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-blend-mode: multiply;
+    background-color: rgba($brand-vibrant, .9);
+    background-image: url(/img/latest.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    // @include linear-gradient(to top, rgba(black, .7), rgba(black, 0));
 }
 
 // EPISODE LIST
 
-.post, .home {
-  margin-top: 50px;
+.post,
+.home
+{
+    margin-top: 50px;
 }
 
-.page-heading {
-  font-size: 3em;
-  color: $brand-color;
-  @media screen and (max-width: 700px) {
-    font-size: 2em;
-  }
+.page-heading
+{
+    font-size: 3em;
+
+    color: $brand-color;
+    @media screen and (max-width: 700px)
+    {
+        font-size: 2em;
+    }
 }
 
-.post-list {
-  @include outer-container;
-  li {
-    @include span-columns(6);
-    @include omega(2n);
+.post-list
+{
+    @include outer-container;
+    li
+    {
+        position: relative;
+
+        height: 320px;
+
+        color: white;
+        border: 5px solid $brand-color;
+
+        @include span-columns(6);
+        @include omega(2n);
+        @include display(flex);
+        @include flex-direction(column);
+        @include justify-content(center);
+        &:hover
+        {
+            .episode-bg
+            {
+                top: 0;
+
+                background-color: rgba($brand-vibrant, 1);
+
+                background-blend-mode: multiply;
+            }
+            .post-excerpt,
+            .post-meta
+            {
+                color: white;
+            }
+            .post-link,
+            a
+            {
+                text-decoration: underline;
+
+                color: white;
+                &:hover
+                {
+                    color: $grey-color;
+                }
+            }
+        }
+        .episode-bg
+        {
+            position: absolute;
+            z-index: -1;
+            top: 100%;
+            right: 0;
+            bottom: 0;
+            left: 0;
+
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        .post-link
+        {
+            line-height: 1.2;
+
+            margin-bottom: 10px;
+        }
+        .post-meta
+        {
+            @include span-columns(12);
+            @include omega;
+        }
+        .episode-text
+        {
+            margin: 30px;
+        }
+        @media screen and (max-width: 800px)
+        {
+            height: auto;
+
+            @include span-columns(12);
+            @include omega;
+        }
+    }
+}
+
+.post-excerpt
+{
+    font-size: em(10px);
+
+    letter-spacing: .01em;
+
+    color: black;
+}
+
+.announcement
+{
+    font-size: em(14px);
+    font-weight: 500;
+
+    display: block;
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    color: rgba(white, .7);
+    background-color: $text-color;
+
+    @include omega;
+    a
+    {
+        text-decoration: underline;
+
+        color: white;
+        &:hover
+        {
+            color: $brand-color;
+        }
+    }
+    @media screen and (max-width: 700px)
+    {
+        font-size: em(10px);
+        font-weight: 400;
+    }
+}
+
+.pagination
+{
+    @include span-columns(10);
+    @include shift;
+    @media screen and (max-width: 700px)
+    {
+        @include span-columns(12);
+        @include shift(0);
+    }
+}
+
+.next-prev-links
+{
+    margin-top: 50px;
+    padding: 30px 10px;
+
+    text-align: center;
+
+    color: $brand-color;
     border: 5px solid $brand-color;
-    color: white;
-    height: 320px;
+
+    @include span-columns(6);
     @include display(flex);
     @include flex-direction(column);
     @include justify-content(center);
-    position: relative;
-    &:hover {
-      .episode-bg {
-        background-color: rgba($brand-vibrant, 1);
-        background-blend-mode: multiply;
-        top: 0;
-      }
-      .post-excerpt, .post-meta {
+    @media screen and (max-width: 700px)
+    {
+        font-size: .7em;
+        font-weight: 400;
+
+        height: 75px;
+        margin-top: 50px;
+    }
+    &:hover
+    {
         color: white;
-      }
-      .post-link {
-        color: $grey-color-light;
-        &:hover {
-          color: white;
-        }
-      }
+        border: 5px solid lighten($brand-color, 2%);
+        background-color: lighten($brand-color, 2%);
     }
-    .episode-bg {
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: -1;
-    }
-    .post-link {
-      line-height: 1.2;
-      margin-bottom: 10px;
-    }
-    .post-meta {
-      @include span-columns(12);
-      @include omega;
-    }
-    .episode-text {
-      margin: 30px;
-    }
-    @media screen and (max-width: 800px) {
-      @include span-columns(12);
-      @include omega;
-      height: auto;
-    }
-  }
 }
 
-.post-excerpt {
-  color: black;
-  font-size: em(10px);
-  letter-spacing: 0.01em;
+.prev
+{
+    float: left;
 }
 
-.announcement {
-  width: 100%;
-  @include omega;
-  display: block;
-  background-color: $text-color;
-  padding: 10px;
-  margin: 0 auto;
-  color: rgba(white, 0.7);
-  text-align: center;
-  text-transform: uppercase;
-  font-size: em(14px);
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  a {
-    color: white;
-    text-decoration: underline;
-    &:hover {
-      color: $brand-color;
-    }
-  }
-  @media screen and (max-width: 700px) {
-    font-size: em(10px);
+.next
+{
+    float: right;
+}
+
+.credits
+{
+    font-size: em(12px);
     font-weight: 400;
-  }
-}
 
-.pagination {
-  @include span-columns(10);
-  @include shift;
-
-  @media screen and (max-width: 700px) {
-    @include span-columns(12);
-    @include shift(0);
-  }
-}
-
-.next-prev-links {
-  @include span-columns(6);
-  border: 5px solid $brand-color;
-  padding: 30px 10px;
-  @include display(flex);
-  @include flex-direction(column);
-  @include justify-content(center);
-  color: $brand-color;
-  text-align: center;
-  margin-top: 50px;
-
-  @media screen and (max-width: 700px) {
-    font-size: .7em;
-    height: 75px;
     margin-top: 50px;
-    font-weight: 400;
-  }
-
-  &:hover {
-    background-color: lighten($brand-color, 2%);
-    border: 5px solid lighten($brand-color, 2%);
-    color: white;
-  }
-}
-
-.prev {
-  float: left;
-}
-
-.next {
-  float: right;
-}
-
-.credits {
-  font-size: em(12px);
-  margin-top: 50px;
-  font-weight: 400;
 }
 
 // SINGLE EPISODE
 
-.episode_text {
-  font-size:  em(23px);
-  line-height: 1.3;
-  padding-right: 100px;
-  margin-bottom: 50px;
-  @media screen and (max-width: 700px) {
-  padding-right: 0;
-  }
+.episode_text
+{
+    font-size: em(23px);
+    line-height: 1.3;
+
+    margin-bottom: 50px;
+    padding-right: 100px;
+    @media screen and (max-width: 700px)
+    {
+        padding-right: 0;
+    }
 }
 
 // DISQUS
 
-#disqus_thread {
-  margin-top: 50px;
-  @include span-columns(10);
-  @include shift;
+#disqus_thread
+{
+    margin-top: 50px;
+
+    @include span-columns(10);
+    @include shift;
 }
 
 
 // NEWSLETTER
 
-.newsletter {
-  text-align: center;
-  h2 {
-    color: $brand-color;
-    font-size: em(25px);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 700;
-    margin-top: 70px;
-    line-height: 1.2;
-  }
+.newsletter
+{
+    text-align: center;
+    h2
+    {
+        font-size: em(25px);
+        font-weight: 700;
+        line-height: 1.2;
+
+        margin-top: 70px;
+
+        letter-spacing: .05em;
+        text-transform: uppercase;
+
+        color: $brand-color;
+    }
 }
 
-.form_display {
+.form_display
+{
+    // background-color: pink;
+    float: none;
 
-  @include span-columns(8);
-  @include shift(2);
-  // background-color: pink;
-  float: none;
-  border: solid 1px $brand-color;
-  @include display(flex);
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 
-  @media screen and (max-width: 800px) {
-    display: block;
-    @include span-columns(12);
-    @include shift(0);
-  }
+    border: solid 1px $brand-color;
 
-  input[type="submit"] {
+    @include span-columns(8);
+    @include shift(2);
+    @include display(flex);
+    @media screen and (max-width: 800px)
+    {
+        display: block;
 
-      @include flex(1);
-      background-color: $brand-color;
-      width: 120px;
-      border: none;
-      height: 50px;
-      font-size: em(14px);
-      color: white;
-      letter-spacing: 0.02em;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      -webkit-border-radius:0px;
-
-      &:focus {
-        outline: 0;
-      }
-      &:hover {
-        background-color: lighten($brand-color, 5%);
-      }
-
-      @media screen and (max-width: 800px) {
-        width: 100%;
-      }
-
+        @include span-columns(12);
+        @include shift(0);
     }
+    input[type='submit']
+    {
+        font-size: em(14px);
 
-  .mc-field-group {
-    position: relative;
-    @include flex(2);
+        width: 120px;
+        height: 50px;
 
-    &:first-child {
-      border-right: solid 1px $brand-color;
-      @media screen and (max-width: 800px) {
-        border-right: none;
-        border-bottom: solid 1px $brand-color;
-      }
+        letter-spacing: .02em;
+
+        color: white;
+        border: none;
+        -webkit-border-radius: 0;
+        background-color: $brand-color;
+
+        @include flex(1);
+        -webkit-appearance: none;
+           -moz-appearance: none;
+        &:focus
+        {
+            outline: 0;
+        }
+        &:hover
+        {
+            background-color: lighten($brand-color, 5%);
+        }
+        @media screen and (max-width: 800px)
+        {
+            width: 100%;
+        }
     }
+    .mc-field-group
+    {
+        position: relative;
 
-    input {
-      position: relative;
-      border: 0;
-      background: none;
-      padding: 20px 5px 5px 5px;
-      font-size: em(22px);
-      font-weight: 300;
-      display: block;
-      height: 50px;
-      width: 100%;
+        @include flex(2);
+        &:first-child
+        {
+            border-right: solid 1px $brand-color;
+            @media screen and (max-width: 800px)
+            {
+                border-right: none;
+                border-bottom: solid 1px $brand-color;
+            }
+        }
+        input
+        {
+            font-size: em(22px);
+            font-weight: 300;
 
-      &:focus {
-        outline: 0;
-      }
+            position: relative;
 
+            display: block;
+
+            width: 100%;
+            height: 50px;
+            padding: 20px 5px 5px 5px;
+
+            border: 0;
+            background: none;
+            &:focus
+            {
+                outline: 0;
+            }
+        }
+        label
+        {
+            font-size: em(12px);
+            font-weight: 400;
+
+            position: absolute;
+            z-index: 2;
+            left: 5px;
+
+            color: $brand-color;
+        }
     }
-
-    label {
-      position: absolute;
-      z-index: 2;
-      font-size: em(12px);
-      font-weight: 400;
-      color: $brand-color;
-      left: 5px;
-    }
-
-  }
-
 }

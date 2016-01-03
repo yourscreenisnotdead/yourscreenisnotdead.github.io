@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "003 Aces High"
+title:  "003: Aces High"
 date:   2015-10-08
 categories: podcast
 number: 003

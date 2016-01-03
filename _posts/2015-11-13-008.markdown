@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "008 Love On Standby"
+title:  "008: Love On Standby"
 date:   2015-11-13
 categories: podcast
 number: 8

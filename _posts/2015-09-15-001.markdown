@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "001 Not Quite My Tempo"
+title:  "001: Not Quite My Tempo"
 date:   2015-09-15
 categories: podcast
 number: 001

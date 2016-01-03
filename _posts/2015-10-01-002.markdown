@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "002 Ava: The Next Session"
+title:  "002: Ava: The Next Session"
 date:   2015-10-1
 categories: podcast
 number: 002
