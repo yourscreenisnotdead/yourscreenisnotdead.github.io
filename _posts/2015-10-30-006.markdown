@@ -5,7 +5,7 @@ date:   2015-10-30
 categories: podcast
 number: 006
 permalink: /episodes/006-Smile-But-Not-Too-Much
-subtitle: This week we celebrate Halloween weekend with the French Horror film, Eyes Without A Face! We discuss score, the role of guilt inside of Dr. Génnessier, how the psychology of the characters played a part in this being an unconventional horror film, and gore. <br><br>Spooky!
+subtitle: This week we celebrate Halloween weekend with the French Horror film, <a href="http://www.imdb.com/title/tt0053459/?ref_=nv_sr_1">Eyes Without A Face</a>! We discuss score, the role of guilt inside of Dr. Génnessier, how the psychology of the characters played a part in this being an unconventional horror film, and gore. <br><br>Spooky!
 ---
 
 <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/19384?style=dark' width='100%'></iframe>
