@@ -12,6 +12,6 @@ subtitle: THE REVENANT!!! We nerd out on this one and talk lighting, cinematogra
 
 <br>
 <span class="episode_text">
-THE REVENANT!!! We nerd out on this one and talk lighting, cinematography, cultural representation and of course the mandatory Oscar conversation. Is this movie better than The Hateful Eight? Will Leo get his Oscar? Find out next time on Dragonball Z. <a href="/audible">Click here</a> to get a free audiobook and support the show!
+{{ page.subtitle }}
 </span>
 <br><br>

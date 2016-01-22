@@ -12,6 +12,6 @@ subtitle: In this episode we talk about Jackie Brown's wonderful cinematography,
 
 <br>
 <span class="episode_text">
-In this episode we talk about Jackie Brown's wonderful cinematography, the cinematic quality of its musical score, and of course, the always burning question; where does it rank among Tarantino's filmography ?
+{{ page.subtitle }}
 </span>
 <br><br>

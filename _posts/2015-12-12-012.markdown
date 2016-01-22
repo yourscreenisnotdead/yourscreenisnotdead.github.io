@@ -12,6 +12,6 @@ subtitle: This week we watched Swingers and try to find out who was the one girl
 
 <br>
 <span class="episode_text">
-This week we watched Swingers and try to find out who was the one girl that took Eddy B's heart at the bar that one time. Jeff recounts some Bahstan stories and we discuss guy code rules. [Click here](/audible) to get a free audiobook and support the show!
+{{ page.subtitle }}
 </span>
 <br><br>

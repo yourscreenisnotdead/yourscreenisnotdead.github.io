@@ -12,6 +12,6 @@ subtitle: This week Jeff jumps on the hate train for the drug classic, Trainspot
 
 <br>
 <span class="episode_text">
-This week Jeff jumps on the hate train for the drug classic, Trainspotting! We discuss how in the world he didn't like the movie, why we feel it's a classic, imagery, grit and the fast pacing. <br><br>What is normal?
+{{ page.subtitle }}
 </span>
 <br><br>

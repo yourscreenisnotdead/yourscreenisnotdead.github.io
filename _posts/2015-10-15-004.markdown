@@ -12,6 +12,6 @@ subtitle: I Lurve You! We cover one of the architects of American relationship m
 
 <br>
 <span class="episode_text">
-I Lurve You! We cover one of the architects of American relationship movies, Annie Hall. One of the most popular Woody Allen movies, we discuss the quirkiness of the main character Alvy, breaking the fourth wall, and of course, is it a realistic take on love?
+{{ page.subtitle }}
 </span>
 <br><br>

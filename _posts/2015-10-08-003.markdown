@@ -12,6 +12,6 @@ subtitle: In 'Aces High' we discuss a CLASSIC. Casino, released in 1995 and dire
 
 <br>
 <span class="episode_text">
-In 'Aces High' we discuss a CLASSIC. Casino, released in 1995 and directed by Martin Scorsese, is a movie the whole team has had a love affair with since screened as teenagers. We discuss Ace's relationship with Ginger, Goodfellas vs Casino, and a detail most of you probably overlooked; the lighting.
+{{ page.subtitle }}
 </span>
 <br><br>

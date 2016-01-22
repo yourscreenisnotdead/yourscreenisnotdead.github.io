@@ -12,6 +12,6 @@ subtitle: Idris Elba, as James Bond, on a mission headed for DR. Just one of the
 
 <br>
 <span class="episode_text">
-Idris Elba, as James Bond, on a mission headed for DR. Just one of the many topics we cover as well as Elba's powerhouse performance, our personal connection with Agu's story, and its importance as Netflix's first feature. [Click here](/audible) to get a free audiobook and support the show!
+{{ page.subtitle }}
 </span>
 <br><br>

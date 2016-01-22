@@ -11,7 +11,9 @@ subtitle: In our second episode we tackle a Sci-Fi movie that we think is an ins
 <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/17359?style=dark' width='100%'></iframe>
 
 <br>
-<span class="episode_text">In our second episode we tackle a Sci-Fi movie that we think is an instant classic, and one of the best movies this year; Ex-Machina! We cover gender roles, why the design of Ava is so cool, and  what we think happens once she's out in the world.</span>
+<span class="episode_text">
+{{ page.subtitle }}
+</span>
 
 <div class="credits">
 --<br>

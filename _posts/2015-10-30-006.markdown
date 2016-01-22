@@ -12,6 +12,6 @@ subtitle: This week we celebrate Halloween weekend with the French Horror film, 
 
 <br>
 <span class="episode_text">
-This week we celebrate Halloween weekend with the French Horror film, Eyes Without A Face! We discuss score, the role of guilt inside of Dr. Génnessier, how the psychology of the characters played a part in this being an unconventional horror film, and gore. <br><br>Spooky!
+{{ page.subtitle }}
 </span>
 <br><br>

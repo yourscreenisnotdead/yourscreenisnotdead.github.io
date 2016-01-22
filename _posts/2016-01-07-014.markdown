@@ -12,6 +12,6 @@ subtitle: What a time. This week we talk impulsiveness, to wingman or not to win
 
 <br>
 <span class="episode_text">
-What a time. This week we talk impulsiveness, to wingman or not to wingman, passion v. responsibility, and polygamy. Eddy B also introduces us to the 2016 new term for being unofficial...and Carlos transforms into the relationship Rev Run. <a href="/audible">Click here</a> to get a free audiobook and support the show!
+{{ page.subtitle }}
 </span>
 <br><br>

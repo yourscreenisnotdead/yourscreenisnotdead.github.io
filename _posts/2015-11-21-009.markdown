@@ -12,6 +12,6 @@ subtitle: Strap your boots up because this week we're going to 'Nam with Full Me
 
 <br>
 <span class="episode_text">
-Strap your boots up because this week we're going to 'Nam with Full Metal Jacket! We talk about the two halves of the movie, the legacy of Stanley Kubrick, how it stacks up to other Vietnam movies and our experience with films depicting wars we have lived through. We also announce our new sponsor, Audible.com! [Click here](/audible) to get a free audiobook and support the show!
+{{ page.subtitle }}
 </span>
 <br><br>

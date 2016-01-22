@@ -12,6 +12,6 @@ subtitle: We're coming to you this week with Chungking Express! We discuss how t
 
 <br>
 <span class="episode_text">
-We're coming to you this week with Chungking Express! We discuss how the men in Chungking Express attempt to get over their former lovers with pineapple cans, jogging, and toy airplanes. As for the women, let's just say you won't mind Faye Wong secretly fixing up your apartment. <br><br>Quirky romance at its finest!
+{{ page.subtitle }}
 </span>
 <br><br>

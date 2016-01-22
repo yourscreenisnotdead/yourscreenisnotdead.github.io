@@ -12,6 +12,6 @@ subtitle: BUY BUY BUY, SELL SELL SELL! This week we watched The Wolf of Wall Str
 
 <br>
 <span class="episode_text">
-BUY BUY BUY, SELL SELL SELL! This week we watched The Wolf of Wall Street! We talk the Wall Street experience, drug addiction, performances and remorse. Eddy B also fills us in on some controversy regarding the film that we had no idea existed. [Click here](/audible) to get a free audiobook and support the show! #AudibleAndChill
+{{ page.subtitle }}
 </span>
 <br><br>
