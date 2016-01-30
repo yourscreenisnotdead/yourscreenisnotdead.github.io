@@ -6,6 +6,8 @@ $(window).load(function(){
   // parallax();
 });
 
+if ( $(window).width() > 769) {
+
 $(window).scroll(function(){
 
   var wScroll = $(this).scrollTop();
@@ -19,3 +21,5 @@ $(window).scroll(function(){
   })
 
 });
+
+}
