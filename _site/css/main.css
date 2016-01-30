@@ -32,6 +32,14 @@ body {
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
 
+.vhstext {
+  position: relative;
+  -webkit-filter: none;
+  filter: none;
+  -webkit-filter: drop-shadow(3px 0px 0 rgba(255, 0, 255, 0.5)) drop-shadow(-3px 0px 0 rgba(0, 255, 255, 0.5)) blur(1px);
+  filter: drop-shadow(3px 0px 0 rgba(255, 0, 255, 0.5)) drop-shadow(-3px 0px 0 rgba(0, 255, 255, 0.5)) blur(1px);
+  animation: track 5ms infinite; }
+
 .post-content iframe {
   background-color: #111 !important; }
 
@@ -149,6 +157,24 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+/* animation */
+@keyframes track {
+  40% {
+    opacity: 1;
+    top: 0;
+    left: 0; }
+  41% {
+    opacity: 0.5;
+    top: 10px;
+    left: 5px; }
+  42% {
+    opacity: 0.2;
+    top: 0px;
+    left: -50px; }
+  43% {
+    opacity: 1;
+    top: 0;
+    left: 0; } }
 .home, .header-wrapper, .footer-wrapper, .hero-wrapper, .post {
   max-width: 68em;
   margin-left: auto;
@@ -350,6 +376,7 @@ pre {
   position: relative;
   top: -30px;
   display: block;
+  overflow: hidden;
   width: 100%;
   padding: 80px 0; }
   @media screen and (max-width: 700px) {
@@ -1156,6 +1183,15 @@ pre {
   -webkit-transition: all 300ms ease-in-out 400ms;
   -moz-transition: all 300ms ease-in-out 400ms;
   transition: all 300ms ease-in-out 400ms; }
+  .load:after {
+    box-shadow: inset 0 0 10em rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    content: ""; }
   .load .play svg {
     width: 150px; }
 
