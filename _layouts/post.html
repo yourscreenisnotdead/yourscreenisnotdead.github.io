@@ -4,6 +4,14 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+    <div class="share">
+      <span>Share This Episode:</span>
+      <span class='st_facebook'></span>
+      <span class='st_twitter'></span>
+      <span class='st_tumblr'></span>
+      <span class='st_email'></span>
+      <span class='st_reddit'></span>
+    </div>
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
@@ -11,6 +19,8 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+  <div class="hiddenImage"><img src="../img/ShowArtSmall.jpg"></div>
 
   <div class="pagination">
   {% if page.previous %}
