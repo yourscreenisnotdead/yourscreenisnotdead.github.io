@@ -6,7 +6,7 @@ $(window).load(function(){
   // parallax();
 });
 
-if ( $(window).width() > 769) {
+if ( $(window).width() > 700) {
 
 $(window).scroll(function(){
 
