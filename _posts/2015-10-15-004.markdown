@@ -5,7 +5,7 @@ date:   2015-10-15
 categories: podcast
 number: 004
 permalink: /episodes/004-I-Lurve-You
-subtitle: I Lurve You! We cover one of the architects of American relationship movies, <a href="http://www.imdb.com/title/tt0075686/?ref_=fn_al_tt_1">Annie Hall</a>. One of the most popular Woody Allen movies, we discuss the quirkiness of the main character Alvy, breaking the fourth wall, and of course, is it a realistic take on love?
+subtitle: I Lurve You! We cover one of the architects of American relationship movies, <a href="http://www.imdb.com/title/tt0075686/?ref_=fn_al_tt_1" target="_blank">Annie Hall</a>. One of the most popular Woody Allen movies, we discuss the quirkiness of the main character Alvy, breaking the fourth wall, and of course, is it a realistic take on love?
 ---
 
 <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/18503?style=dark' width='100%'></iframe>
