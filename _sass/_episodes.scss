@@ -244,6 +244,40 @@
     }
 }
 
+.main-pagination {
+  margin-top: 30px;
+  @media screen and (max-width: 700px)
+  {
+      margin-top: 0;
+  }
+  .previous, .next {
+    background-color: $brand-color;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 35px;
+    &:hover {
+      background-color: lighten($brand-color, 10%);
+    }
+    @media screen and (max-width: 700px)
+    {
+        width: 100%;
+        margin-top: 20px
+    }
+  }
+  .inactive-pagination {
+      background-color: $grey-color-light;
+      color: white;
+      text-align: center;
+      display: inline-block;
+      padding: 15px 35px;
+      pointer-events: none;
+      &:hover {
+        background-color: $grey-color-light;
+      }
+  }
+}
+
 .pagination
 {
     @include span-columns(10);
@@ -258,24 +292,25 @@
 .next-prev-links
 {
     margin-top: 50px;
-    padding: 30px 10px;
+    padding: 15px 35px;
 
     text-align: center;
 
     color: $brand-color;
     border: 5px solid $brand-color;
 
-    @include span-columns(6);
+    /*@include span-columns(6);*/
     @include display(flex);
     @include flex-direction(column);
     @include justify-content(center);
     @media screen and (max-width: 700px)
     {
-        font-size: .7em;
-        font-weight: 400;
+        /*font-size: .7em;*/
+        /*font-weight: 400;*/
 
-        height: 75px;
-        margin-top: 50px;
+        /*height: 75px;*/
+        /*margin-bottom: 20px;*/
+        width: 100%;
     }
     &:hover
     {

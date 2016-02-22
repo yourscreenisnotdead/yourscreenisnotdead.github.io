@@ -4,7 +4,6 @@ title:  "015: We Are All Savages"
 date:   2016-01-18
 categories: podcast
 number: 15
-permalink: /episodes/015-We-Are-All-Savages
 subtitle: <a href="http://www.imdb.com/title/tt1663202/?ref_=nv_sr_1" target="_blank">THE REVENANT</a>!!! We nerd out on this one and talk lighting, cinematography, cultural representation and of course the mandatory Oscar conversation. Is this movie better than The Hateful Eight? Will Leo get his Oscar? Find out next time on Dragonball Z. <a href="/audible" target="_blank">Click here</a> to get a free audiobook and support the show!
 ---
 

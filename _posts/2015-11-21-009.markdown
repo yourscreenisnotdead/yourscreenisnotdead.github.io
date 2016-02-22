@@ -4,7 +4,6 @@ title:  "009: Jelly Donut"
 date:   2015-11-21
 categories: podcast
 number: 9
-permalink: /episodes/009-Jelly-Donut
 subtitle: Strap your boots up because this week we're going to 'Nam with <a href="http://www.imdb.com/title/tt0093058/?ref_=nv_sr_1" target="_blank">Full Metal Jacket</a>! We talk about the two halves of the movie, the legacy of Stanley Kubrick, how it stacks up to other Vietnam movies and our experience with films depicting wars we have lived through. We also announce our new sponsor, Audible.com! <a href="/audible" target="_blank">Click here</a> to get a free audiobook and support the show!
 ---
 

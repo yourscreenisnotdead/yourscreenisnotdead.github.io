@@ -4,7 +4,6 @@ title:  "005: Absolutely Positively"
 date:   2015-10-23
 categories: podcast
 number: 005
-permalink: /episodes/005-Absolutely-Positively
 subtitle: In this episode we talk about <a href="http://www.imdb.com/title/tt0119396/?ref_=fn_al_tt_1" target="_blank">Jackie Brown</a>'s wonderful cinematography, the cinematic quality of its musical score, and of course  the always burning question; where does it rank among Tarantino's filmography ?
 ---
 

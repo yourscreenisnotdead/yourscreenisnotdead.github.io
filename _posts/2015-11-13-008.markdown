@@ -4,7 +4,6 @@ title:  "008: Love On Standby"
 date:   2015-11-13
 categories: podcast
 number: 8
-permalink: /episodes/008-Love-On-Standby
 subtitle: We're coming to you this week with <a href="http://www.imdb.com/title/tt0109424/?ref_=nv_sr_1" target="_blank">Chungking Express</a>! We discuss how the men in Chungking Express attempt to get over their former lovers with pineapple cans, jogging, and toy airplanes. As for the women, let's just say you won't mind Faye Wong secretly fixing up your apartment. Quirky romance at its finest!
 ---
 
