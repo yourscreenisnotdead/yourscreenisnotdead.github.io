@@ -11,7 +11,7 @@
   padding: 80px;
   margin-top: 0;
   opacity: 1;
-  @include transition(all 300ms ease-in-out 400ms);
+  @include transition(all 300ms ease-in-out 100ms);
   &:after {
     box-shadow: inset 0 0 10em rgba(0,0,0,0.75);
     position: absolute;

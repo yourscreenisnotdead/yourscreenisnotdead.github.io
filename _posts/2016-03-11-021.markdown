@@ -1,0 +1,12 @@
+---
+layout: post
+title: '021: The Middleman'
+date: 2016-03-11T00:00:00.000Z
+categories: podcast
+number: 21
+subtitle: "Up this week, <a href=\"http://www.imdb.com/title/tt0375912/?ref_=fn_al_tt_1\" target=\"_blank\">Layer Cake</a>! The under-the-radar Daniel Craig film that showed us his James Bond chops! We talk the opening monologue, its cult classic status, the personal struggle of Daniel Craig's character and the idea of the unconventional hero. As always Jeff goes on a tangent about colors, and then Eddy B debates the necessity of the ending scene. <a href=\"http://www.yourscreenisnotdead.com/audible\" target=\"_blank\">Click here</a> to get a free audiobook and support the show!"
+---
+
+<iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.com/e/29221?style=dark' width='100%'></iframe>
+
+<br> <span class="episode_text"> {{ page.subtitle }} </span> <br><br>
