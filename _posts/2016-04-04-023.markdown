@@ -1,0 +1,12 @@
+---
+layout: post
+title: '023: The Gem Episode'
+date: 2016-04-04
+categories: podcast
+number: 23
+subtitle: "<a href=\"http://www.imdb.com/title/tt1022603/?ref_=nv_sr_1\" target=\"_blank\">500 Days of Summer</a>! This week we dive deep into the gem pool to take an unexpected male perspective on the relations between JGL and Zoey. Inbetween dropping the relationship knowledge, we talk mixed signals, love at first sight, societal pressure, what happens to 'the spot' after the breakup, and the music. <a href=\"http://www.yourscreenisnotdead.com/audible\" target=\"_blank\">Click here</a> to get a free audiobook and support the show!"
+---
+
+<iframe frameborder='0' height='94px' scrolling='no' seamless src='https://simplecast.com/e/34579?style=medium-dark' width='100%'></iframe>
+
+<br> <span class="episode_text"> {{ page.subtitle }} </span> <br><br>
