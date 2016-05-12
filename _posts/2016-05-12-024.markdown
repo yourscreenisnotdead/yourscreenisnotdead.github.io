@@ -1,0 +1,12 @@
+---
+layout: post
+title: '024: The Marriott'
+date: 2016-05-12
+categories: podcast
+number: 24
+subtitle: "This week's episode is <a href=\"http://www.imdb.com/title/tt5105736/?ref_=nv_sr_1\" target=\"_blank\">The Art of Organized Noize</a>! We jump into our hip-hop bag and discuss whether Organized Noize get their just due, did Interscope help them, are they owed anything by Outkast and what led to their fall. We also go off on a Roc-a-fella tangent because, why not right? <a href=\"http://www.yourscreenisnotdead.com/audible\" target=\"_blank\">Click here</a> to get a free audiobook and support the show!"
+---
+
+<iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.com/e/37543?style=dark' width='100%'></iframe>
+
+<br> <span class="episode_text"> {{ page.subtitle }} </span> <br><br>
